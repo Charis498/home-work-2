@@ -107,7 +107,7 @@ header nav ul li a:hover {
 }
 
 .hero {
-  padding-bottom: 125px;
+  padding-bottom: 113px;
   position: relative;
   z-index: 1;
 }
@@ -172,7 +172,7 @@ header nav ul li a:hover {
 
 .reincarnation {
   position: relative;
-  margin-top: 50px;
+  margin-top: 113px;
 }
 
 .reincarnation h2 {
@@ -216,4 +216,50 @@ header nav ul li a:hover {
 .txt-info {
   width: 709px;
   position: relative;
+  padding-bottom: 200px;
+}
+
+.why-us {
+  padding-top: 175px;
+}
+
+.why-us h2 {
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+  line-height: 100%;
+  width: 432px;
+  padding: 0px 314px 48px 314px;
+}
+
+.why-us h2 span {
+  color: var(--color-primary-light);
+}
+
+.format-section {
+  display: flex;
+  justify-content: center;
+  gap: 56px;
+}
+
+.swiper-slide {
+  background-color: var(--color-white);
+  padding: 24px 32px;
+  text-align: center;
+  border-radius: 32px;
+  max-width: 316px;
+  box-shadow: 0 4px 4px #a8c6f5;
+  border: 1px solid var(--color-white);
+}
+
+.swiper-slide img {
+  width: 48px;
+  height: 48px;
+}
+
+.swiper-slide p {
+  font-size: 18px;
+  line-height: 24px;
+  width: 252px;
+  height: 72px;
 }
