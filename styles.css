@@ -1,0 +1,265 @@
+/* Roboto */
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Regular.woff2') format('ttf'),
+    url('fonts/Roboto-Regular.woff') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-SemiBold.woff2') format('ttf'),
+    url('fonts/Roboto-SemiBold.woff') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Play */
+@font-face {
+  font-family: 'Play';
+  src: url('fonts/Play-Regular.woff2') format('ttf'),
+    url('fonts/Play-Regular.woff') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Play';
+  src: url('fonts/Play-Bold.woff2') format('ttf'),
+    url('fonts/Play-Bold.woff') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  --color-white: #ffffff;
+  --color-primary-light: #2b7fff;
+  --color-primary-dark: #011c44;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  width: 1250px;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+header {
+  padding: 32px 0;
+  z-index: 2;
+  position: relative;
+}
+
+header .logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-primary-light);
+}
+
+header nav {
+  float: right;
+  width: 50%;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+header nav ul li a {
+  color: black;
+}
+
+header nav ul li a:hover {
+  color: var(--color-primary-light);
+}
+
+.hero {
+  padding-bottom: 113px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-info {
+  width: 530px;
+  padding-left: 122px;
+  padding-top: 16px;
+  z-index: 2;
+  position: relative;
+}
+
+.hero-info h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-primary-dark);
+  padding-bottom: 16px;
+}
+.hero-info h1 {
+  color: var(--color-primary-light);
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 114px;
+  padding-bottom: 40px;
+}
+.hero-info .btn {
+  color: var(--color-withe);
+  background-color: var(--color-primary-light);
+  border: 2px solid var(--color-primary-light);
+  border-radius: 32px;
+  padding: 16px 32px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.hero-info .btn:hover {
+  background-color: var(--color-white);
+  color: var(--color-primary-dark);
+}
+.hero-info p {
+  font-size: 12px;
+  line-height: 112.5%;
+  margin: 14px 0;
+}
+
+.hero img {
+  width: 1500px;
+  height: 687px;
+  position: absolute;
+  top: -150px;
+  right: 0;
+}
+
+.hero .hero-info img {
+  width: 1500px;
+  height: 687px;
+  position: absolute;
+  top: -150px;
+  right: 10px;
+  z-index: -1;
+}
+
+.reincarnation {
+  position: relative;
+  margin-top: 113px;
+}
+
+.reincarnation h2 {
+  font-weight: 700;
+  font-size: 64px;
+  color: var(--color-primary-dark);
+  padding-bottom: 40px;
+}
+
+.reincarnation h2 span {
+  color: var(--color-primary-light);
+}
+
+.reincarnation p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 38px;
+  padding-bottom: 40px;
+}
+
+.reincarnation p span {
+  font-weight: 600;
+}
+
+.woman2 img {
+  width: 343px;
+  height: 328px;
+  position: absolute;
+  top: -50px;
+  right: 200px;
+}
+
+.woman img {
+  width: 343px;
+  height: 328px;
+  position: absolute;
+  top: 380px;
+  right: 30px;
+}
+
+.txt-info {
+  width: 709px;
+  position: relative;
+  padding-bottom: 200px;
+}
+
+.why-us {
+  padding-top: 175px;
+}
+
+.why-us h2 {
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+  line-height: 100%;
+  width: 432px;
+  padding: 0px 314px 48px 314px;
+}
+
+.why-us h2 span {
+  color: var(--color-primary-light);
+}
+
+.format-section {
+  display: flex;
+  justify-content: center;
+  gap: 56px;
+}
+
+.swiper-slide {
+  background-color: var(--color-white);
+  padding: 24px 32px;
+  text-align: center;
+  border-radius: 32px;
+  max-width: 316px;
+  box-shadow: 0 4px 4px #a8c6f5;
+  border: 1px solid var(--color-white);
+}
+
+.swiper-slide img {
+  width: 48px;
+  height: 48px;
+}
+
+.swiper-slide p {
+  font-size: 18px;
+  line-height: 24px;
+  width: 252px;
+  height: 72px;
+}
