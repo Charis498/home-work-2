@@ -9,24 +9,26 @@
   <body>
     <div class="wrapper">
       <header class="container">
-        <span class="logo">Beauty <br />Zone</span>
-        <nav>
-          <ul>
-            <li class="active"><a href="#">Про нас</a></li>
-            <li><a href="#">Чому ми</a></li>
-            <li><a href="#">Наші процедури</a></li>
-            <li><a href="#">Контакти</a></li>
-            <li>
-              <a href="#"><img src="img/telephone.svg" alt="telephone" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="img/facebook.svg" alt="facebook" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="img/instagram.svg" alt="instagram" /></a>
-            </li>
-          </ul>
-        </nav>
+        <div class="navigation">
+          <span class="logo">Beauty <br />Zone</span>
+          <nav>
+            <ul>
+              <li class="active"><a href="#">Про нас</a></li>
+              <li><a href="#">Чому ми</a></li>
+              <li><a href="#">Наші процедури</a></li>
+              <li><a href="#">Контакти</a></li>
+              <li>
+                <a href="#"><img src="img/telephone.svg" alt="telephone" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="img/facebook.svg" alt="facebook" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="img/instagram.svg" alt="instagram" /></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </header>
 
       <div class="hero container">
@@ -64,11 +66,8 @@
         </div>
       </div>
 
-      <div class="why-us">
-        <h2>
-          Чому люди<br />
-          <span>обирають нас</span>
-        </h2>
+      <div class="why-us container">
+        <h2>Чому люди <br /><span>обирають нас</span></h2>
         <div class="format-section">
           <div class="swiper-slide">
             <img src="img/atom.svg" alt="atom" />
@@ -93,6 +92,107 @@
           </div>
         </div>
       </div>
+
+      <div class="our-procedures container">
+        <h2>Наші <span>процедури</span></h2>
+        <div class="format-container">
+          <button class="arrow-button" type="button">
+            <img src="img/Arrow2.svg" alt="arrow" />
+          </button>
+          <ul>
+            <li>
+              <article class="format_card">
+                <div class="format-card_txt">
+                  <p>Маски для обличчя</p>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="format_card">
+                <div class="format-card_txt">
+                  <p>Ін'єкції для обличчя</p>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="format_card">
+                <div class="format-card_txt">
+                  <p>Очищення обличчя</p>
+                </div>
+              </article>
+            </li>
+          </ul>
+          <button class="arrow-button" type="button">
+            <img src="img/Arrow2.svg" alt="arrow" />
+          </button>
+        </div>
+      </div>
+
+      <div class="find-us container">
+        <h2>Як нас <span>знайти</span></h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.475791668505!2d30.775223399999994!3d50.50671339999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d97de411b701%3A0x48116b28f7f00d94!2z0YPQuy4g0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60L4sIDUsINCR0YDQvtCy0LDRgNGLLCDQmtC40LXQstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAwNzQwMA!5e0!3m2!1sru!2sua!4v1754923698466!5m2!1sru!2sua"
+          width="605"
+          height="481"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <footer class="footer container">
+        <div class="footer-container">
+          <div class="footer-logo">
+            Beauty <br />
+            Zone
+          </div>
+          <div class="footer-nav">
+            <ul class="footer-menu">
+              <li><a href="#">Про нас</a></li>
+              <li><a href="#">Чому ми</a></li>
+              <li><a href="#">Наші процедури</a></li>
+              <li><a href="#">Контакти</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <ul>
+              <li><a href="tell:+380960000007">+ 38 (096) 000 00 07</a></li>
+              <li>
+                <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
+              </li>
+              <li>
+                <a
+                  href="https://maps.app.goo.gl/cW3RwzHp4ziLELXN9"
+                  target="_blank"
+                  >Україна, м. Київ, вул. Тараса Шевченка 5</a
+                >
+              </li>
+            </ul>
+            <div class="social-site">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><img src="img/telephone.svg" alt="telephone"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="img/facebook.svg" alt="facebook" /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="img/instagram.svg" alt="instagram"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-txt">
+            <a href="#">Політика конфіденційності</a>
+            <p>© 2022 Дані захищені</p>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
